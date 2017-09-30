@@ -497,7 +497,7 @@ cite img {
 /*-----------Contact Form---------------*/
 
 .contact-form {
-	width: 60%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -520,6 +520,33 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
+
+/*-----------gmap---------------*/
+
+.map-box {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.map {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	z-index: 0;
+}
+
+.form-box {
+	position: absolute;
+	width: 50%;
+	top: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.8);
+	z-index: 10;
+	height: 600px;
+	padding-top: 40px;
+}
+
 
 /*-----------Footer---------------*/
 
