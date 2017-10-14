@@ -66,13 +66,13 @@ $ (document).ready(function() {
 // maps
 	var map = new GMaps({
 	  div: '.map',
-	  lat: -38.7436266,
+	  lat: 38.7436266,
 	  lng: -9.05,
-	  zoom: 12,
+	  zoom: 12
 	});
 
 	map.addMarker({
-  		lat: -38.7221291,
+  		lat: 38.7436266,
   		lng: -9.1705034,
   		title: 'Lisbon',
   		infoWindow: {
